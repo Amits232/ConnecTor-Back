@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ConnecTor-Back.props" />
+</Project>
