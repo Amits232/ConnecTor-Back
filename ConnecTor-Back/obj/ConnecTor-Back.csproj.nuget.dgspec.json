@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\ConnecTor-Back\\ConnecTor-Back\\ConnecTor-Back.csproj": {}
+    "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\ConnecTor-Back.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\ConnecTor-Back\\ConnecTor-Back\\ConnecTor-Back.csproj": {
+    "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\ConnecTor-Back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\ConnecTor-Back\\ConnecTor-Back\\ConnecTor-Back.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\ConnecTor-Back.csproj",
         "projectName": "ConnecTor-Back",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\ConnecTor-Back\\ConnecTor-Back\\ConnecTor-Back.csproj",
+        "projectPath": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\ConnecTor-Back.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\ConnecTor-Back\\ConnecTor-Back\\obj\\",
+        "outputPath": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

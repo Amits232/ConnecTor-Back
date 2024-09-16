@@ -1,4 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using ConnecTor_Back.Dtos;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using Dapper;
 
 public class ConnecTorDbContext : DbContext
 {
@@ -37,6 +40,7 @@ public class ConnecTorDbContext : DbContext
             .WithMany(r => r.Users)
             .HasForeignKey(u => u.RegionID)
             .OnDelete(DeleteBehavior.Restrict); // Adjust delete behavior as needed
+
 
         // Configuring User to Profession relationship
         modelBuilder.Entity<User>()
@@ -124,4 +128,29 @@ public class ConnecTorDbContext : DbContext
 
         base.OnModelCreating(modelBuilder);
     }
+    public async Task<UserDto> GetUserById(int id)
+    {
+        var sql = "EXEC GetUserById @p0";
+        return await this.Database.GetDbConnection()
+            .QuerySingleOrDefaultAsync<UserDto>(sql, new { p0 = id });
+    }
+
+    public async Task<List<LastProjectsDto>> GetLastProjectsById(int id, int amount)
+    {
+        var sql = "EXEC GetUserProjectsById @UserID = @id, @ProjectCount = @amount";
+        var result = await this.Database.GetDbConnection()
+            .QueryAsync<LastProjectsDto>(sql, new { id, amount });
+        return result.ToList();
+    }
+
+    public async Task<List<LastBidsDto>> GetLastBidsById(int id, int amount)
+    {
+        var sql = "EXEC GetLastBidsById @UserID = @id, @Amount = @amount";
+        var result = await this.Database.GetDbConnection()
+            .QueryAsync<LastBidsDto>(sql, new { id, amount });
+        return result.ToList();
+    }
+
+
+
 }

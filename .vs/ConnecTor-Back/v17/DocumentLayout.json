@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\data\\connectordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\data\\connectordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\handlers\\getlastbidsbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\handlers\\getlastbidsbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\requests\\getlastbidsbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\requests\\getlastbidsbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetLastBidsByIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Handlers\\GetLastBidsByIdHandler.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Handlers\\GetLastBidsByIdHandler.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Handlers\\GetLastBidsByIdHandler.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Handlers\\GetLastBidsByIdHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:31:29.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetLastBidsByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Requests\\GetLastBidsByIdQuery.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Requests\\GetLastBidsByIdQuery.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Requests\\GetLastBidsByIdQuery.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Requests\\GetLastBidsByIdQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:31:02.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Controllers\\ProjectsController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:28:03.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConnecTorDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Data\\ConnecTorDbContext.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Data\\ConnecTorDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Data\\ConnecTorDbContext.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Data\\ConnecTorDbContext.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAhwJYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:05:15.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1186,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

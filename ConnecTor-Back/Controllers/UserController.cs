@@ -1,90 +1,32 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using ConnecTor_Back.Queries;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ConnecTor_Back.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
-        private readonly IUserService _userService;
+        private readonly IMediator _mediator;
 
-        public UserController(IUserService userService)
+        public UserController(IMediator mediator)
         {
-            _userService = userService;
+            _mediator = mediator;
         }
 
-        // GET: api/Users
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> GetUsers()
-        {
-            var users = await _userService.GetAllUsersAsync();
-            return Ok(users);
-        }
-
-        // GET: api/Users/{id}
         [HttpGet("{id}")]
-        public async Task<ActionResult<User>> GetUser(int id)
+        public async Task<IActionResult> GetUserById(int id)
         {
-            var user = await _userService.GetUserByIdAsync(id);
+            var query = new GetUserByIdQuery(id);
+            var userDto = await _mediator.Send(query);
 
-            if (user == null)
+            if (userDto == null)
             {
                 return NotFound();
             }
 
-            return Ok(user);
-        }
-
-        // POST: api/Users
-        [HttpPost]
-        public async Task<ActionResult<User>> CreateUser(User user)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            var createdUser = await _userService.CreateUserAsync(user);
-            return CreatedAtAction(nameof(GetUser), new { id = createdUser.UserID }, createdUser);
-        }
-
-        // PUT: api/Users/{id}
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateUser(int id, User user)
-        {
-            if (id != user.UserID)
-            {
-                return BadRequest("User ID mismatch");
-            }
-
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            var updatedUser = await _userService.UpdateUserAsync(id, user);
-
-            if (updatedUser == null)
-            {
-                return NotFound();
-            }
-
-            return NoContent();
-        }
-
-        // DELETE: api/Users/{id}
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUser(int id)
-        {
-            var result = await _userService.DeleteUserAsync(id);
-
-            if (!result)
-            {
-                return NotFound();
-            }
-
-            return NoContent();
+            return Ok(userDto);
         }
     }
 }
