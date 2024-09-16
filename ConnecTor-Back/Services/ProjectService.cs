@@ -2,7 +2,7 @@
 using ConnecTor_Back.Dtos;
 using Microsoft.EntityFrameworkCore;
 
-namespace ConnecTor_Back.ProjectService
+namespace ConnecTor_Back.Services
 {
     public class ProjectService : IProjectService
     {
@@ -32,16 +32,16 @@ namespace ConnecTor_Back.ProjectService
                     Deadline = p.Deadline,
                     ProjectDescription = p.ProjectDescription,
                     RegionID = p.RegionID,
-                    ProjectQuantities = p.ProjectQuantities ?? Array.Empty<byte>(), 
-                    ConstructionPlans = p.ConstructionPlans ?? Array.Empty<byte>(), 
+                    ProjectQuantities = p.ProjectQuantities ?? Array.Empty<byte>(),
+                    ConstructionPlans = p.ConstructionPlans ?? Array.Empty<byte>(),
                     ContractorID = p.ContractorID,
                     ActualStartDate = p.ActualStartDate,
                     ActualEndDate = p.ActualEndDate,
                     ActualPayment = p.ActualPayment,
-                    ClientReview = p.ClientReview ?? string.Empty, 
-                    ContractorReview = p.ContractorReview ?? string.Empty, 
-                    RegionName = p.Region != null ? p.Region.RegionDescription : string.Empty, 
-                    ProjectFieldName = p.ProjectField != null ? p.ProjectField.ProjectFieldDescription : string.Empty, 
+                    ClientReview = p.ClientReview ?? string.Empty,
+                    ContractorReview = p.ContractorReview ?? string.Empty,
+                    RegionName = p.Region != null ? p.Region.RegionDescription : string.Empty,
+                    ProjectFieldName = p.ProjectField != null ? p.ProjectField.ProjectFieldDescription : string.Empty,
                     Client = p.Client != null ? new UserDto
                     {
                         UserID = p.Client.UserID,
@@ -54,8 +54,8 @@ namespace ConnecTor_Back.ProjectService
                         FirstName = p.Contractor.FirstName,
                         LastName = p.Contractor.LastName
                     } : null,
-                    Proposals = p.Proposals ?? new List<ProjectProposal>(), 
-                    ProjectImages = p.ProjectImages ?? new List<ProjectImage>() 
+                    Proposals = p.Proposals ?? new List<ProjectProposal>(),
+                    ProjectImages = p.ProjectImages ?? new List<ProjectImage>()
                 })
                 .ToListAsync();
         }
@@ -84,16 +84,16 @@ namespace ConnecTor_Back.ProjectService
                     Deadline = p.Deadline,
                     ProjectDescription = p.ProjectDescription,
                     RegionID = p.RegionID,
-                    ProjectQuantities = p.ProjectQuantities ?? Array.Empty<byte>(), 
-                    ConstructionPlans = p.ConstructionPlans ?? Array.Empty<byte>(), 
+                    ProjectQuantities = p.ProjectQuantities ?? Array.Empty<byte>(),
+                    ConstructionPlans = p.ConstructionPlans ?? Array.Empty<byte>(),
                     ContractorID = p.ContractorID,
                     ActualStartDate = p.ActualStartDate,
                     ActualEndDate = p.ActualEndDate,
                     ActualPayment = p.ActualPayment,
-                    ClientReview = p.ClientReview ?? string.Empty, 
-                    ContractorReview = p.ContractorReview ?? string.Empty, 
-                    RegionName = p.Region != null ? p.Region.RegionDescription : string.Empty, 
-                    ProjectFieldName = p.ProjectField != null ? p.ProjectField.ProjectFieldDescription : string.Empty, 
+                    ClientReview = p.ClientReview ?? string.Empty,
+                    ContractorReview = p.ContractorReview ?? string.Empty,
+                    RegionName = p.Region != null ? p.Region.RegionDescription : string.Empty,
+                    ProjectFieldName = p.ProjectField != null ? p.ProjectField.ProjectFieldDescription : string.Empty,
                     Client = p.Client != null ? new UserDto
                     {
                         UserID = p.Client.UserID,
@@ -107,7 +107,7 @@ namespace ConnecTor_Back.ProjectService
                         LastName = p.Contractor.LastName
                     } : null,
                     Proposals = p.Proposals ?? new List<ProjectProposal>(),
-                    ProjectImages = p.ProjectImages ?? new List<ProjectImage>() 
+                    ProjectImages = p.ProjectImages ?? new List<ProjectImage>()
                 })
                 .FirstOrDefaultAsync();
         }
