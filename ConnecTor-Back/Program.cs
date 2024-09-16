@@ -9,8 +9,23 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Determine which connection string to use based on the machine name
+var machineName = Environment.MachineName;
+string connectionString;
+
+if (machineName == "DESKTOP-N6FQQ59")
+{
+    connectionString = builder.Configuration.GetConnectionString("DefaultConnection1");
+}
+else
+{
+    connectionString = builder.Configuration.GetConnectionString("DefaultConnection2");
+}
+
+// Configure the DbContext to use the determined connection string
 builder.Services.AddDbContext<ConnecTorDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(connectionString));
+
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

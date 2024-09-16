@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\afik\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\react\\tasksui\\tasksui\\connector-back\\connector-back\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\afik\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\react\\tasksui\\tasksui\\connector-back\\connector-back\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\afik\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\react\\tasksui\\tasksui\\connector-back\\connector-back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,6 +33,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\afik\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\react\\tasksui\\tasksui\\connector-back\\connector-back\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\afik\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\react\\tasksui\\tasksui\\connector-back\\connector-back\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,29 +46,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "ConnecTor-Back\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\Services\\UserService.cs",
-              "RelativeToolTip": "ConnecTor-Back\\Services\\UserService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T18:57:40.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\Program.cs",
               "RelativeDocumentMoniker": "ConnecTor-Back\\Program.cs",
-              "ToolTip": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\Program.cs",
-              "RelativeToolTip": "ConnecTor-Back\\Program.cs",
+              "ToolTip": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\Program.cs*",
+              "RelativeToolTip": "ConnecTor-Back\\Program.cs*",
               "ViewState": "AgIAAAMAAAAAAAAAAAAswBMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T18:53:50.993Z",
@@ -80,12 +63,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\appsettings.json",
               "RelativeDocumentMoniker": "ConnecTor-Back\\appsettings.json",
-              "ToolTip": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\appsettings.json",
-              "RelativeToolTip": "ConnecTor-Back\\appsettings.json",
+              "ToolTip": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\appsettings.json*",
+              "RelativeToolTip": "ConnecTor-Back\\appsettings.json*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-16T18:53:41.011Z",
@@ -101,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ProjectProposal.cs",
               "DocumentMoniker": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\Models\\ProjectProposal.cs",
               "RelativeDocumentMoniker": "ConnecTor-Back\\Models\\ProjectProposal.cs",
@@ -114,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\Models\\Project.cs",
               "RelativeDocumentMoniker": "ConnecTor-Back\\Models\\Project.cs",
@@ -127,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "ProjectService.cs",
               "DocumentMoniker": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\Services\\ProjectService.cs",
               "RelativeDocumentMoniker": "ConnecTor-Back\\Services\\ProjectService.cs",
@@ -140,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "ProjectsController.cs",
               "DocumentMoniker": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\Controllers\\ProjectsController.cs",
               "RelativeDocumentMoniker": "ConnecTor-Back\\Controllers\\ProjectsController.cs",
@@ -153,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "LoginQuery.cs",
               "DocumentMoniker": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\Requests\\LoginQuery.cs",
               "RelativeDocumentMoniker": "ConnecTor-Back\\Requests\\LoginQuery.cs",
@@ -165,20 +148,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ConnecTor-Back\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\Controllers\\UserController.cs",
               "RelativeToolTip": "ConnecTor-Back\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T07:47:33.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T07:47:33.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "C:\\Users\\Afik\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "ConnecTor-Back\\Controllers\\AuthenticationController.cs",
