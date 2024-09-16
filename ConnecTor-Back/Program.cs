@@ -1,5 +1,5 @@
 using ConnecTor_Back.Interfaces;
-using ConnecTor_Back.ProjectService;
+using ConnecTor_Back.Services;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 

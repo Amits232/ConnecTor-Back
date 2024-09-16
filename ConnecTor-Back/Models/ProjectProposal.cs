@@ -24,7 +24,7 @@ public class ProjectProposal
     [Required]
     public DateTime ExpectedEndDate { get; set; }
 
-    public string Comments { get; set; }
+    public string Comment { get; set; }
 
     [Required]
     public decimal ProposalPrice { get; set; }
