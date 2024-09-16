@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\handlers\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\handlers\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\data\\connectordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\data\\connectordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\services\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\services\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\handlers\\getlastbidsbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\handlers\\getlastbidsbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\requests\\loginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\requests\\loginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\requests\\getlastbidsbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\requests\\getlastbidsbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,60 +33,73 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetLastBidsByIdHandler.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Handlers\\GetLastBidsByIdHandler.cs",
-              "RelativeDocumentMoniker": "ConnecTor-Back\\Handlers\\GetLastBidsByIdHandler.cs",
-              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Handlers\\GetLastBidsByIdHandler.cs",
-              "RelativeToolTip": "ConnecTor-Back\\Handlers\\GetLastBidsByIdHandler.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T15:31:29.1Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetLastBidsByIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Requests\\GetLastBidsByIdQuery.cs",
-              "RelativeDocumentMoniker": "ConnecTor-Back\\Requests\\GetLastBidsByIdQuery.cs",
-              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Requests\\GetLastBidsByIdQuery.cs",
-              "RelativeToolTip": "ConnecTor-Back\\Requests\\GetLastBidsByIdQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Services\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Services\\JwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Services\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Services\\JwtTokenGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T15:31:02.516Z",
+              "WhenOpened": "2024-09-16T08:16:08.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProjectsController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Controllers\\ProjectsController.cs",
-              "RelativeDocumentMoniker": "ConnecTor-Back\\Controllers\\ProjectsController.cs",
-              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Controllers\\ProjectsController.cs",
-              "RelativeToolTip": "ConnecTor-Back\\Controllers\\ProjectsController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Title": "LoginHandler.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Handlers\\LoginHandler.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Handlers\\LoginHandler.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Handlers\\LoginHandler.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Handlers\\LoginHandler.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T15:28:03.706Z",
+              "WhenOpened": "2024-09-16T08:05:33.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConnecTorDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Data\\ConnecTorDbContext.cs",
-              "RelativeDocumentMoniker": "ConnecTor-Back\\Data\\ConnecTorDbContext.cs",
-              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Data\\ConnecTorDbContext.cs",
-              "RelativeToolTip": "ConnecTor-Back\\Data\\ConnecTorDbContext.cs",
-              "ViewState": "AQIAAIgAAAAAAAAAAAAhwJYAAAAfAAAA",
+              "DocumentIndex": 2,
+              "Title": "LoginQuery.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Requests\\LoginQuery.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Requests\\LoginQuery.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Requests\\LoginQuery.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Requests\\LoginQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T13:05:15.786Z",
+              "WhenOpened": "2024-09-16T08:04:33.475Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T07:47:33.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA1wCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T07:47:22.688Z",
+              "EditorCaption": ""
             }
           ]
         },

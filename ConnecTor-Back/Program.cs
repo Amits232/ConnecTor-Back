@@ -1,3 +1,4 @@
+using ConnecTor_Back.Interfaces;
 using ConnecTor_Back.ProjectService;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -19,7 +20,13 @@ builder.Services.AddScoped<IProjectService, ProjectService>();
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<Program>());
 
+
+var jwtSecretKey = builder.Configuration["JwtSettings:SecretKey"];
+builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>(provider =>
+    new JwtTokenGenerator(jwtSecretKey));
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
