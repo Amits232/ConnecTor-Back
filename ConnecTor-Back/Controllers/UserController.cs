@@ -1,5 +1,6 @@
 ﻿using ConnecTor_Back.Dtos;
 using ConnecTor_Back.Queries;
+using ConnecTor_Back.Requests;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -60,18 +61,19 @@ namespace ConnecTor_Back.Controllers
             return Ok(conversations);
         }
 
-        //[HttpGet("{userId1}/messages/{userId2}")]
-        //public async Task<IActionResult> GetUserMessages(int userId1, int userId2)
-        //{
-        //    var messages = await _mediator.Send(userId1, userId2);
+        [HttpGet("{userId1}/messages/{userId2}")]
+        public async Task<IActionResult> GetUserMessages(int userId1, int userId2)
+        {
+            var query = new GetUserMessagesQuery(userId1, userId2);
+            var messages = await _mediator.Send(query); 
 
-        //    if (messages == null || !messages.Any())
-        //    {
-        //        return NotFound("No messages found between the specified users.");
-        //    }
+            if (messages == null || !messages.Any())
+            {
+                return NotFound("No messages found between the specified users.");
+            }
 
-        //    return Ok(messages);
-        //}
+            return Ok(messages);
+        }
 
     }
 }
