@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConnecTor-Back")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f34faaf6bbde05fab5732e55ee2fb525eae97742")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad7ff6d3a4f670d6fc7bc22de4e793d03b372f98")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConnecTor-Back")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConnecTor-Back")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

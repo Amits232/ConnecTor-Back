@@ -1,36 +1,41 @@
-﻿using ConnecTor_Back.Interfaces;
-using ConnecTor_Back.Requests;
-using MediatR;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Threading;
 using System.Threading.Tasks;
+using ConnecTor_Back.Interfaces;
+using ConnecTor_Back.Requests;
+using MediatR;
 
-namespace ConnecTor_Back.Handlers
+public class LoginHandler : IRequestHandler<LoginQuery, string>
 {
-    public class LoginHandler : IRequestHandler<LoginQuery, string>
+    private readonly ConnecTorDbContext _context;
+    private readonly IJwtTokenGenerator _tokenGenerator;
+    private readonly PasswordHasher<User> _passwordHasher;
+
+    public LoginHandler(ConnecTorDbContext context, IJwtTokenGenerator tokenGenerator)
     {
-        private readonly ConnecTorDbContext _context;
-        private readonly IJwtTokenGenerator _tokenGenerator;
+        _context = context;
+        _tokenGenerator = tokenGenerator;
+        _passwordHasher = new PasswordHasher<User>();
+    }
 
-        public LoginHandler(ConnecTorDbContext context, IJwtTokenGenerator tokenGenerator)
+    public async Task<string> Handle(LoginQuery request, CancellationToken cancellationToken)
+    {
+        var user = await _context.Users
+            .FirstOrDefaultAsync(u => u.Email == request.Email);
+
+        if (user == null)
         {
-            _context = context;
-            _tokenGenerator = tokenGenerator;
+            throw new UnauthorizedAccessException("Invalid credentials.");
         }
 
-        public async Task<string> Handle(LoginQuery request, CancellationToken cancellationToken)
+        var passwordVerificationResult = _passwordHasher.VerifyHashedPassword(user, user.UserPassword, request.Password);
+        if (passwordVerificationResult != PasswordVerificationResult.Success)
         {
-            var user = await _context.Users
-                .FirstOrDefaultAsync(u => u.Email == request.Email && u.UserPassword == request.Password);
-
-            if (user == null)
-            {
-                throw new UnauthorizedAccessException("Invalid credentials.");
-            }
-
-            // Generate a JWT token
-            var token = _tokenGenerator.GenerateToken(user);
-            return token;
+            throw new UnauthorizedAccessException("Invalid credentials.");
         }
+
+        var token = _tokenGenerator.GenerateToken(user);
+        return token;
     }
 }

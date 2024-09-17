@@ -4652,19 +4652,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Afik\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Afik\\OneDrive\\שולחן העבודה\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\ConnecTor-Back.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\ConnecTor-Back.csproj",
       "projectName": "ConnecTor-Back",
-      "projectPath": "C:\\Users\\Afik\\OneDrive\\שולחן העבודה\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\ConnecTor-Back.csproj",
-      "packagesPath": "C:\\Users\\Afik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Afik\\OneDrive\\שולחן העבודה\\React\\TasksUI\\tasksUI\\ConnecTor-Back\\ConnecTor-Back\\obj\\",
+      "projectPath": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\ConnecTor-Back.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Afik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4746,7 +4746,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

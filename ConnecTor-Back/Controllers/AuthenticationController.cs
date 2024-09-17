@@ -19,17 +19,21 @@ namespace ConnecTor_Back.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginRequest loginRequest)
+        public async Task<IActionResult> Login([FromBody] LoginQuery loginQuery)
         {
-            try
+            var token = await _mediator.Send(loginQuery);
+            return Ok(new { Token = token });
+        }
+
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] UserRegisterQuery registerRequest)
+        {
+            var result = await _mediator.Send(registerRequest);
+            if (result)
             {
-                var token = await _mediator.Send(loginRequest);
-                return Ok(new { Token = token });
+                return Ok(new { Message = "User registered successfully" });
             }
-            catch (UnauthorizedAccessException)
-            {
-                return Unauthorized(new { Message = "Invalid credentials" });
-            }
+            return BadRequest(new { Message = "Failed to register user" });
         }
     }
 }
