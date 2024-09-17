@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\data\\connectordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\data\\connectordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\handlers\\getlastbidsbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\handlers\\getlastbidsbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\dtos\\lastprojectsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\dtos\\lastprojectsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\handlers\\getlastprojectsbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\handlers\\getlastprojectsbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|c:\\users\\hp\\react\\pythonproj\\connector-back\\connector-back\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD8116F8-12B7-4A30-B6E0-7ED90ED2E0DE}|ConnecTor-Back\\ConnecTor-Back.csproj|solutionrelative:connector-back\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,62 +46,127 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConnecTorDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Data\\ConnecTorDbContext.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Data\\ConnecTorDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Data\\ConnecTorDbContext.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Data\\ConnecTorDbContext.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAwwJEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:37:37.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetLastProjectsByIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Handlers\\GetLastProjectsByIdHandler.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Handlers\\GetLastProjectsByIdHandler.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Handlers\\GetLastProjectsByIdHandler.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Handlers\\GetLastProjectsByIdHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:37:20.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LastProjectsDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Dtos\\LastProjectsDto.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Dtos\\LastProjectsDto.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Dtos\\LastProjectsDto.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Dtos\\LastProjectsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:35:14.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetLastBidsByIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Handlers\\GetLastBidsByIdHandler.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Handlers\\GetLastBidsByIdHandler.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Handlers\\GetLastBidsByIdHandler.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Handlers\\GetLastBidsByIdHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:59:09.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Controllers\\ProjectsController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:58:51.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Services\\ProjectService.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Services\\ProjectService.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Services\\ProjectService.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAgwGoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:58:17.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:44:51.79Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Project.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Models\\Project.cs",
-              "RelativeDocumentMoniker": "ConnecTor-Back\\Models\\Project.cs",
-              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Models\\Project.cs",
-              "RelativeToolTip": "ConnecTor-Back\\Models\\Project.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAkwCAAAAASAAAA",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Services\\UserService.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Services\\UserService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADwvyYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T13:38:33.101Z",
+              "WhenOpened": "2024-09-17T14:44:16.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProjectService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Services\\ProjectService.cs",
-              "RelativeDocumentMoniker": "ConnecTor-Back\\Services\\ProjectService.cs",
-              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Services\\ProjectService.cs",
-              "RelativeToolTip": "ConnecTor-Back\\Services\\ProjectService.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFcAAABGAAAA",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Program.cs",
+              "RelativeDocumentMoniker": "ConnecTor-Back\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Program.cs",
+              "RelativeToolTip": "ConnecTor-Back\\Program.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADQAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T12:51:20.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProjectDto.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Dtos\\ProjectDto.cs",
-              "RelativeDocumentMoniker": "ConnecTor-Back\\Dtos\\ProjectDto.cs",
-              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Dtos\\ProjectDto.cs",
-              "RelativeToolTip": "ConnecTor-Back\\Dtos\\ProjectDto.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA+wBgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T12:42:02.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "ConnecTor-Back\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\HP\\REACT\\pythonProj\\ConnecTor-Back\\ConnecTor-Back\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "ConnecTor-Back\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAlwBkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T07:47:22.688Z",
+              "WhenOpened": "2024-09-17T14:41:36.141Z",
               "EditorCaption": ""
             }
           ]

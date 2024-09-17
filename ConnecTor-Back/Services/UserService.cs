@@ -13,20 +13,33 @@ public class UserService : IUserService
         _context = context;
     }
 
-    public Task<User> CreateUserAsync(User user)
-    {
-        throw new NotImplementedException();
-    }
-
     public Task<bool> DeleteUserAsync(int id)
     {
         throw new NotImplementedException();
     }
 
-    public Task<IEnumerable<UserDto>> GetAllUsersAsync()
+    public async Task<IEnumerable<UserDto>> GetAllUsersAsync()
     {
-        throw new NotImplementedException();
+        return await _context.Users
+            .Include(u => u.UserType)
+            .Include(u => u.Region)
+            .Include(u => u.Profession)
+            .Select(u => new UserDto
+            {
+                UserID = u.UserID,
+                FirstName = u.FirstName,
+                LastName = u.LastName,
+                Email = u.Email,
+                Telephone = u.Telephone,
+                UserType = u.UserType.UserTypeDescription,
+                Region = u.Region.RegionDescription,
+                Profession = u.Profession != null ? u.Profession.ProfessionDescription : null,
+                UserImage = u.UserImage,
+                LicenseCode = u.BusinessLicenseCode,
+            })
+            .ToListAsync();
     }
+
 
     public Task<UserDto> GetUserByIdAsync(int id)
     {

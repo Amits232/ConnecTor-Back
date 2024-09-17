@@ -1,4 +1,5 @@
-﻿using ConnecTor_Back.Queries;
+﻿using ConnecTor_Back.Dtos;
+using ConnecTor_Back.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,10 +10,12 @@ namespace ConnecTor_Back.Controllers
     public class UserController : ControllerBase
     {
         private readonly IMediator _mediator;
+        private readonly IUserService _userService;
 
-        public UserController(IMediator mediator)
+        public UserController(IMediator mediator, IUserService userService)
         {
             _mediator = mediator;
+            _userService = userService;
         }
 
         [HttpGet("{id}")]
@@ -27,6 +30,19 @@ namespace ConnecTor_Back.Controllers
             }
 
             return Ok(userDto);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<UserDto>>> GetAllUsers()
+        {
+            var users = await _userService.GetAllUsersAsync();
+
+            if (users == null || !users.Any())
+            {
+                return NotFound("No users found.");
+            }
+
+            return Ok(users);
         }
     }
 }

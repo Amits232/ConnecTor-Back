@@ -2,8 +2,9 @@
 {
     public class LastProjectsDto
     {
+        public int ProjectID { get; set; }
         public string ProjectName { get; set; }
         public string ProjectDescription { get; set; }
-        public DateTime Deadline { get; set; }
+        public DateOnly Deadline { get; set; }
     }
 }

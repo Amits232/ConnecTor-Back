@@ -138,9 +138,19 @@ public class ConnecTorDbContext : DbContext
     public async Task<List<LastProjectsDto>> GetLastProjectsById(int id, int amount)
     {
         var sql = "EXEC GetUserProjectsById @UserID = @id, @ProjectCount = @amount";
-        var result = await this.Database.GetDbConnection()
-            .QueryAsync<LastProjectsDto>(sql, new { id, amount });
-        return result.ToList();
+
+        var rawResult = await this.Database.GetDbConnection()
+            .QueryAsync<dynamic>(sql, new { id, amount });
+
+        var result = rawResult.Select(row => new LastProjectsDto
+        {
+            ProjectID = row.ProjectID,
+            ProjectName = row.ProjectName,
+            ProjectDescription = row.ProjectDescription,
+            Deadline = DateOnly.FromDateTime((DateTime)row.Deadline) // Convert DateTime to DateOnly
+        }).ToList();
+
+        return result;
     }
 
     public async Task<List<LastBidsDto>> GetLastBidsById(int id, int amount)
