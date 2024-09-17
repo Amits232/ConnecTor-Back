@@ -10,6 +10,6 @@ public class UserRegisterQuery : IRequest<bool>
     public int ProfessionID { get; set; }
     public string BusinessLicenseCode { get; set; }
     public string Telephone { get; set; }
-    public byte[] UserImage { get; set; }
+    public string UserImage { get; set; }
     public int UserTypeID { get; set; }
 }

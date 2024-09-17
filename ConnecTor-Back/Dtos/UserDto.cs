@@ -42,7 +42,7 @@ namespace ConnecTor_Back.Dtos
         public string Region { get; set; }
         public string Profession { get; set; }
         public string LicenseCode { get; set; }
-        public byte[] UserImage { get; set; }
+        public string UserImage { get; set; }
         public string Email { get; set; }
         public string Telephone { get; set; }
     }

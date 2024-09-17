@@ -32,7 +32,7 @@ using System.ComponentModel.DataAnnotations;
         [StringLength(50)]
         public string? BusinessLicenseCode { get; set; }
 
-        public byte[]? UserImage { get; set; }
+        public string? UserImage { get; set; }
 
         [Required]
         [EmailAddress]
