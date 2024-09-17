@@ -34,13 +34,21 @@ builder.Services.AddScoped<IProjectService, ProjectService>();
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<Program>());
 
-
+var reactEndPoint = builder.Configuration["EndPoint:Url"];
 var jwtSecretKey = builder.Configuration["JwtSettings:SecretKey"];
+
 builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>(provider =>
     new JwtTokenGenerator(jwtSecretKey));
 
 var app = builder.Build();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin",
+        builder => builder.WithOrigins(reactEndPoint+"") // React app's URL
+                          .AllowAnyHeader()
+                          .AllowAnyMethod());
+});
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -50,6 +58,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowSpecificOrigin");
 
 app.UseAuthorization();
 
