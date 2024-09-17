@@ -44,5 +44,34 @@ namespace ConnecTor_Back.Controllers
 
             return Ok(users);
         }
+
+
+        [HttpGet("{userId}/conversations")]
+        public async Task<IActionResult> GetUserConversations(int userId)
+        {
+            var query = new GetUserConversationsQuery(userId);
+            var conversations = await _mediator.Send(query);
+
+            if (conversations == null || !conversations.Any())
+            {
+                return NotFound("No conversations found.");
+            }
+
+            return Ok(conversations);
+        }
+
+        //[HttpGet("{userId1}/messages/{userId2}")]
+        //public async Task<IActionResult> GetUserMessages(int userId1, int userId2)
+        //{
+        //    var messages = await _mediator.Send(userId1, userId2);
+
+        //    if (messages == null || !messages.Any())
+        //    {
+        //        return NotFound("No messages found between the specified users.");
+        //    }
+
+        //    return Ok(messages);
+        //}
+
     }
 }

@@ -13,11 +13,6 @@ public class UserService : IUserService
         _context = context;
     }
 
-    public Task<bool> DeleteUserAsync(int id)
-    {
-        throw new NotImplementedException();
-    }
-
     public async Task<IEnumerable<UserDto>> GetAllUsersAsync()
     {
         return await _context.Users
@@ -38,16 +33,5 @@ public class UserService : IUserService
                 LicenseCode = u.BusinessLicenseCode,
             })
             .ToListAsync();
-    }
-
-
-    public Task<UserDto> GetUserByIdAsync(int id)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<User> UpdateUserAsync(int id, User user)
-    {
-        throw new NotImplementedException();
     }
 }

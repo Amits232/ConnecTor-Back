@@ -160,6 +160,25 @@ public class ConnecTorDbContext : DbContext
             .QueryAsync<LastBidsDto>(sql, new { id, amount });
         return result.ToList();
     }
+    public async Task<List<MessageDto>> GetUserMessagesAsync(int userId1, int userId2)
+    {
+        var sql = @"
+            SELECT 
+                Id,
+                Content,
+                Timestamp,
+                SenderId,
+                ReceiverId,
+                IsRead
+            FROM Messages
+            WHERE (SenderId = @UserId1 AND ReceiverId = @UserId2) 
+               OR (SenderId = @UserId2 AND ReceiverId = @UserId1)";
+
+        var parameters = new { UserId1 = userId1, UserId2 = userId2 };
+        var messages = await this.Database.GetDbConnection().QueryAsync<MessageDto>(sql, parameters);
+
+        return messages.ToList();
+    }
 
 
 
