@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 public interface IProjectService
 {
-    Task<IEnumerable<ProjectDto>> GetAllProjectsAsync();
+    Task<IEnumerable<AllProjectsDto>> GetAllProjectsAsync();
     Task<ProjectDto> GetProjectByIdAsync(int projectId);
     Task<Project> CreateProjectAsync(Project project);
     Task UpdateProjectAsync(Project project);

@@ -29,8 +29,8 @@ public class Project
     [Required]
     public int RegionID { get; set; }
 
-    public byte[] ProjectQuantities { get; set; }
-    public byte[] ConstructionPlans { get; set; }
+    public byte[]? ProjectQuantities { get; set; }
+    public byte[]? ConstructionPlans { get; set; }
 
     public int? ContractorID { get; set; }
     public DateTime? ActualStartDate { get; set; }
